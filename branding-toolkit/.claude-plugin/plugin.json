@@ -5,11 +5,5 @@
   "author": {
     "name": "Biggles Project"
   },
-  "keywords": ["branding", "design-system", "css", "tailwind", "design-tokens", "brand-voice"],
-  "autoDiscover": {
-    "commands": "../commands",
-    "agents": "../agents",
-    "skills": "../skills",
-    "hooks": "../hooks"
-  }
+  "keywords": ["branding", "design-system", "css", "tailwind", "design-tokens", "brand-voice"]
 }
