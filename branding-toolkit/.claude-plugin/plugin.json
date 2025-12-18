@@ -1,0 +1,15 @@
+{
+  "name": "branding-toolkit",
+  "version": "0.1.0",
+  "description": "Comprehensive brand management for web applications - visual identity, voice, naming, and compliance",
+  "author": {
+    "name": "Biggles Project"
+  },
+  "keywords": ["branding", "design-system", "css", "tailwind", "design-tokens", "brand-voice"],
+  "auto_discover": {
+    "commands": "../commands",
+    "agents": "../agents",
+    "skills": "../skills",
+    "hooks": "../hooks"
+  }
+}

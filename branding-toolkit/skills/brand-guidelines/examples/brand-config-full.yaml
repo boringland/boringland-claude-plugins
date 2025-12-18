@@ -1,0 +1,177 @@
+# Comprehensive Brand Configuration
+# Full example with all supported fields
+
+name: "Adventure Platform"
+tagline: "Where words become worlds"
+
+# Brand personality attributes (inform voice and visuals)
+attributes:
+  - generative
+  - adventurous
+  - accessible
+  - eclectic
+
+# Color palette with usage notes
+colors:
+  # Primary palette
+  primary:
+    value: "#00ff41"
+    usage: "Primary CTAs, links, brand moments"
+  secondary:
+    value: "#ffb000"
+    usage: "Secondary actions, highlights"
+  accent:
+    value: "#ff2a6d"
+    usage: "Attention-grabbing, notifications"
+
+  # Background colors
+  background:
+    value: "#0a0a0f"
+    usage: "Page background"
+  surface:
+    value: "#111118"
+    usage: "Cards, elevated elements"
+
+  # Text colors
+  text:
+    value: "#ffffff"
+    usage: "Primary text"
+  text_secondary:
+    value: "#cccccc"
+    usage: "Secondary text, descriptions"
+  text_muted:
+    value: "#666666"
+    usage: "Disabled, placeholder text"
+
+  # Semantic colors
+  success:
+    value: "#00d26a"
+    usage: "Success states, confirmations"
+  warning:
+    value: "#ffb000"
+    usage: "Warnings, pending states"
+  error:
+    value: "#ff4757"
+    usage: "Errors, destructive actions"
+  info:
+    value: "#3498db"
+    usage: "Informational messages"
+
+  # Borders and dividers
+  border:
+    value: "#333333"
+    usage: "Borders, dividers"
+  border_subtle:
+    value: "#222222"
+    usage: "Subtle separators"
+
+# Typography system
+typography:
+  # Font families
+  display: "Press Start 2P"
+  body: "Space Mono"
+  mono: "Fira Code"
+
+  # Scale settings
+  scale: 1.25
+  base_size: 16
+
+  # Font weights
+  weights:
+    light: 300
+    regular: 400
+    medium: 500
+    semibold: 600
+    bold: 700
+
+  # Line heights
+  line_heights:
+    tight: 1.2
+    normal: 1.5
+    relaxed: 1.7
+
+# Spacing system
+spacing:
+  base: 4
+  scale:
+    xs: 4
+    sm: 8
+    md: 16
+    lg: 24
+    xl: 32
+    2xl: 48
+    3xl: 64
+
+# Border radius
+radius:
+  sm: 4
+  md: 8
+  lg: 16
+  full: 9999
+
+# Shadow system
+shadows:
+  sm: "0 1px 2px rgba(0, 0, 0, 0.3)"
+  md: "0 4px 6px rgba(0, 0, 0, 0.3)"
+  lg: "0 10px 15px rgba(0, 0, 0, 0.3)"
+
+# Logo configuration
+logo:
+  primary: "assets/logo.svg"
+  icon: "assets/icon.svg"
+  wordmark: "assets/wordmark.svg"
+  clear_space: "1x logo height"
+  min_size:
+    digital: 24
+    print: "0.5in"
+  prohibited:
+    - "Stretching or distorting"
+    - "Changing approved colors"
+    - "Adding shadows or effects"
+    - "Placing on busy backgrounds"
+    - "Rotating or tilting"
+
+# Animation preferences
+motion:
+  duration:
+    fast: "150ms"
+    normal: "300ms"
+    slow: "500ms"
+  easing:
+    default: "ease-out"
+    bounce: "cubic-bezier(0.68, -0.55, 0.265, 1.55)"
+
+# Breakpoints
+breakpoints:
+  sm: 640
+  md: 768
+  lg: 1024
+  xl: 1280
+  2xl: 1536
+
+# Brand voice (see brand-voice skill for details)
+voice:
+  tone: "friendly, enthusiastic, clear"
+  personality: "helpful guide, not corporate robot"
+  vocabulary:
+    prefer:
+      - create
+      - adventure
+      - discover
+      - explore
+      - imagine
+    avoid:
+      - simple
+      - just
+      - obviously
+      - easy
+      - basic
+
+# Theme variants (for multi-theme support)
+themes:
+  - name: arcade
+    description: "Retro CRT terminal aesthetic"
+  - name: explorer
+    description: "Weathered adventure map"
+  - name: grimoire
+    description: "Ancient magical tome"

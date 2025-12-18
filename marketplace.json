@@ -1,0 +1,14 @@
+{
+  "name": "biggles-plugins",
+  "owner": {
+    "name": "boringland"
+  },
+  "plugins": [
+    {
+      "name": "branding-toolkit",
+      "description": "Comprehensive brand management for web applications - visual identity, voice, naming, and compliance",
+      "version": "0.1.0",
+      "source": "./branding-toolkit"
+    }
+  ]
+}

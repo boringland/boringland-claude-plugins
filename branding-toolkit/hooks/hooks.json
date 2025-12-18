@@ -1,0 +1,17 @@
+{
+  "description": "Brand compliance hooks - checks style files for brand guideline adherence",
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "prompt",
+            "prompt": "Check if the file just written/edited is a style file (CSS, SCSS, Less, Tailwind config) or contains user-facing copy (JSX, TSX, Vue, HTML templates). If so, briefly note any potential brand compliance concerns:\n\n1. For style files: Look for hardcoded hex colors (should use CSS variables), hardcoded font families (should use brand fonts), arbitrary pixel values for spacing\n\n2. For UI files: Look for generic button labels (Submit, OK, Click here), technical error messages, words that might conflict with brand voice\n\nIf no concerns or file is not brand-relevant, respond with just 'No brand concerns.' Otherwise, briefly list 1-3 key concerns to investigate. Keep response under 100 words.\n\nFile: $TOOL_INPUT",
+            "timeout": 15
+          }
+        ]
+      }
+    ]
+  }
+}

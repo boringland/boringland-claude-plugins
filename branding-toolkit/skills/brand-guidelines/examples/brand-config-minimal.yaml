@@ -1,0 +1,15 @@
+# Minimal Brand Configuration
+# Use this as a starting point for simple projects
+
+name: "My Brand"
+
+colors:
+  primary: "#0066ff"
+  secondary: "#00cc88"
+  accent: "#ff6600"
+  background: "#ffffff"
+  text: "#1a1a1a"
+
+typography:
+  display: "Inter"
+  body: "Inter"
