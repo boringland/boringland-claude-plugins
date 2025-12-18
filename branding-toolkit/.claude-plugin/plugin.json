@@ -6,7 +6,7 @@
     "name": "Biggles Project"
   },
   "keywords": ["branding", "design-system", "css", "tailwind", "design-tokens", "brand-voice"],
-  "auto_discover": {
+  "autoDiscover": {
     "commands": "../commands",
     "agents": "../agents",
     "skills": "../skills",
